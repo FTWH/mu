@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+# 这个是Handler主函数
 import os
 import subprocess
 import sys
@@ -12,6 +12,7 @@ from libmu.fd_wrapper import FDWrapper
 from libmu.socket_nb import SocketNB
 import libmu.util
 
+#建立了boto3 s3 client
 s3_client = boto3.client('s3')
 
 ###
